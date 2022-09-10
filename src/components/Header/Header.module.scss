@@ -9,6 +9,14 @@
     align-items: center;
     svg {
       margin-left: 5px;
+      width: 30px;
+      height: 30px;
+    }
+    &__active {
+      color: #40b0ee;
+      svg {
+        fill: #40b0ee;
+      }
     }
   }
   .list {
@@ -36,6 +44,46 @@
           fill: #40b0ee;
         }
       }
+    }
+    &__linkActive {
+      color: #40b0ee;
+      text-decoration: underline;
+      svg {
+        fill: #40b0ee;
+      }
+    }
+  }
+}
+
+@media (max-width: 485px) {
+  .header {
+    &__nav {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .logo {
+      font-size: 24px;
+    }
+    .list {
+      &__item {
+        &:first-child {
+          margin-left: 20px;
+        }
+      }
+      &__link {
+        font-size: 12px;
+        svg {
+          height: 12px;
+          width: 12px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 359px) {
+  .header {
+    .logo {
+      margin-bottom: 8px;
     }
   }
 }

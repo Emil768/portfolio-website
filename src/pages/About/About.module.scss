@@ -11,16 +11,45 @@
     flex: 0 0 20%;
   }
   &__info {
-    flex: 0 0 50%;
+    flex: 0 0 55%;
   }
   &__title {
     font-size: 30px;
     margin-bottom: 20px;
     padding-bottom: 15px;
     border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    svg {
+      margin-left: 10px;
+    }
   }
   &__text {
     font-size: 18px;
     line-height: 1.6;
+  }
+}
+
+@media (max-width: 860px) {
+  .about {
+    &__title {
+      font-size: 25px;
+    }
+    &__text {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 758px) {
+  .about {
+    margin-top: 40px;
+    &__content {
+      flex-direction: column;
+    }
+    &__img {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
   }
 }

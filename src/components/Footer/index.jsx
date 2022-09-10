@@ -9,6 +9,7 @@ function Footer() {
           href="https://t.me/Emilka22878"
           className={styles.footer__link}
           target="_blank"
+          rel="noreferrer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -27,6 +28,7 @@ function Footer() {
           href="https://vk.com/emilka008"
           className={styles.footer__link}
           target="_blank"
+          rel="noreferrer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -46,6 +48,7 @@ function Footer() {
           href="https://github.com/EmilMurahas228"
           className={styles.footer__link}
           target="_blank"
+          rel="noreferrer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
