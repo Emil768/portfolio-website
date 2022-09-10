@@ -1,0 +1,17 @@
+.Home {
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &__title {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 60px;
+  }
+
+  &__text {
+    font-size: 25px;
+    line-height: 1.6;
+  }
+}

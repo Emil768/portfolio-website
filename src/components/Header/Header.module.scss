@@ -1,0 +1,41 @@
+.header {
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    svg {
+      margin-left: 5px;
+    }
+  }
+  .list {
+    display: flex;
+    &__item {
+      margin-left: 20px;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+    &__link {
+      svg {
+        margin-right: 8px;
+        height: 16px;
+        width: 16px;
+      }
+      &:hover {
+        text-decoration: underline;
+        color: #40b0ee;
+        svg {
+          fill: #40b0ee;
+        }
+      }
+    }
+  }
+}
