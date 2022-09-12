@@ -1,5 +1,6 @@
-export { default as comixImage } from "./comix.gif";
-export { default as notesImage } from "./notes.gif";
-export { default as vkloaderIMage } from "./vkloader.gif";
-export { default as telegrambotImage } from "./telegrambot.gif";
-export { default as trelloImage } from "./trello.gif";
+export { default as comixVideo } from "./comix.mp4";
+export { default as notesVideo } from "./notes.mp4";
+export { default as vkloaderVideo } from "./vkloader.mp4";
+export { default as telegrambotVideo } from "./telegrambot.mp4";
+export { default as internetShopVideo } from "./internet-shop.mp4";
+export { default as trelloVideo } from "./trello.mp4";

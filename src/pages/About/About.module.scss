@@ -43,6 +43,9 @@
 
 @media (max-width: 758px) {
   .about {
+    &__title {
+      justify-content: center;
+    }
     margin-top: 40px;
     &__content {
       flex-direction: column;

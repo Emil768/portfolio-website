@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./ProjectBlock.module.scss";
 
-function ProjectBlock({ title, img, tags, link, gitLink }) {
+function ProjectBlock({ title, content, tags, link }) {
   return (
     <a
       href={link}
@@ -10,7 +10,10 @@ function ProjectBlock({ title, img, tags, link, gitLink }) {
       className={styles.projects__block}
       rel="noreferrer"
     >
-      <img className={styles.projects__img} src={img} alt="" />
+      <video className={styles.projects__img} loop autoPlay muted>
+        <source src={content} type="video/mp4" />
+      </video>
+
       <div className={styles.projects__info}>
         <h3 className={styles.projects__title}>
           {title}{" "}
