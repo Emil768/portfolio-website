@@ -7,6 +7,9 @@
   &__info {
     text-align: left;
   }
+  &__img {
+    height: 400px;
+  }
   &__title {
     margin-bottom: 10px;
     font-size: 60px;
@@ -20,6 +23,7 @@
 
 @media (max-width: 945px) {
   .home {
+    margin-top: 40px;
     &__content {
       flex-wrap: wrap;
     }
@@ -52,6 +56,7 @@
 
 @media (max-width: 452px) {
   .home {
+    margin-top: 0;
     &__title {
       font-size: 30px;
     }

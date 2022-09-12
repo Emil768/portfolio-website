@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Home.module.scss";
-import codeImage from "../../img/giphy-unscreen.gif";
+import codeVideo from "../../img/code.mp4";
 
 function Home() {
   return (
@@ -13,7 +13,9 @@ function Home() {
             <br /> I 🧡 JavaScript, ReactJS.
           </p>
         </div>
-        <img className={styles.home__img} src={codeImage} alt="" />
+        <video className={styles.home__img} loop autoPlay muted>
+          <source src={codeVideo} type="video/mp4" />
+        </video>
       </div>
     </section>
   );

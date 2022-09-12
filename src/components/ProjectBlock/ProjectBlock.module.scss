@@ -62,13 +62,26 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .projects__block {
+    flex: 0 0 100%;
+    margin: 0 0 20px 0;
     .projects__title {
-      font-size: 12px;
+      font-size: 16px;
     }
     .projects__tag {
-      font-size: 10px;
+      font-size: 12px;
     }
   }
 }
+
+// @media (max-width: 700px) {
+//   .projects__block {
+//     .projects__title {
+//       font-size: 12px;
+//     }
+//     .projects__tag {
+//       font-size: 10px;
+//     }
+//   }
+// }
