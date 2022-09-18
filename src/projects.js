@@ -11,7 +11,7 @@ export const projects = [
     title: "React-notes",
     content: notesVideo,
     tags: [
-      "ReactJs  NodeJs  React-redux Axios MongoDB Express Cloudinary JWTB crypt",
+      "ReactJs  NodeJs  React-redux Axios MongoDB Express Cloudinary JWT Bcrypt",
     ],
     link: "https://mern-notes-frontend.vercel.app/",
     gitLink: "https://github.com/EmilMurahas228/mern-notes-frontend",
@@ -38,13 +38,7 @@ export const projects = [
     link: " https://emilmurahas228.github.io/Trello-clone-js/",
     gitLink: "https://github.com/EmilMurahas228/Trello-clone-js",
   },
-  {
-    title: "React-comix",
-    content: comixVideo,
-    tags: ["ReactJs json-server"],
-    link: "https://react-comix.herokuapp.com/",
-    gitLink: "https://github.com/EmilMurahas228/React-comix",
-  },
+
   {
     title: "Telegram-translate-bot",
     content: telegrambotVideo,
