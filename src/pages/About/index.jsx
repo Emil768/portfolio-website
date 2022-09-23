@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./About.module.scss";
-import userImage from "../../img/user.jpg";
+import userImage from "../../img/author.png";
 
 function About() {
   return (

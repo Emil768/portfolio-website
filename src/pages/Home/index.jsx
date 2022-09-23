@@ -10,7 +10,7 @@ function Home() {
           <h1 className={styles.home__title}>Emil Murahas</h1>
           <p className={styles.home__text}>
             Hello, World! I’m a frontend developer.
-            <br /> I 🧡 JavaScript, ReactJS.
+            <br /> I 💖 JavaScript, ReactJS.
           </p>
         </div>
         <video className={styles.home__img} loop autoPlay muted>

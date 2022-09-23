@@ -11,10 +11,17 @@ export const projects = [
     title: "React-notes",
     content: notesVideo,
     tags: [
-      "ReactJs  NodeJs  React-redux Axios MongoDB Express Cloudinary JWT Bcrypt",
+      "ReactJs  NodeJs  Redux-toolkit React-redux Axios MongoDB Express Cloudinary JWT Bcrypt",
     ],
     link: "https://mern-notes-frontend.vercel.app/",
     gitLink: "https://github.com/EmilMurahas228/mern-notes-frontend",
+  },
+  {
+    title: "React-comix",
+    content: comixVideo,
+    tags: ["ReactJs Typescript Redux-toolkit React-redux Json-server"],
+    link: "https://react-comix.herokuapp.com/",
+    gitLink: "https://github.com/EmilMurahas228/react-comix-v.2",
   },
   {
     title: "Internet-shop",
@@ -23,6 +30,7 @@ export const projects = [
     link: " https://internet-shop-six.vercel.app/",
     gitLink: "https://github.com/EmilMurahas228/react-internet-shop",
   },
+
   {
     title: "VK-loader",
     content: vkloaderVideo,
@@ -30,7 +38,6 @@ export const projects = [
     link: "https://emilmurahas228.github.io/vk-loader/",
     gitLink: "https://github.com/EmilMurahas228/vk-loader",
   },
-
   {
     title: "Trello",
     content: trelloVideo,
