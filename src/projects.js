@@ -5,6 +5,7 @@ import {
   notesVideo,
   vkloaderVideo,
   internetShopVideo,
+  githubFinderVideo,
 } from "./img/index";
 export const projects = [
   {
@@ -22,6 +23,14 @@ export const projects = [
     tags: ["ReactJs Typescript Redux-toolkit React-redux Json-server"],
     link: "https://react-comix.herokuapp.com/",
     gitLink: "https://github.com/EmilMurahas228/react-comix-v.2",
+  },
+
+  {
+    title: "Github-finder",
+    content: githubFinderVideo,
+    tags: ["ReactJs Typescript GithubApi"],
+    link: "https://github-finder-psi-nine.vercel.app/",
+    gitLink: "https://github.com/EmilMurahas228/github-finder",
   },
   {
     title: "Internet-shop",
